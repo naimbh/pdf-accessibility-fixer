@@ -1,0 +1,14 @@
+{
+  "src": "Article.pdf",
+  "dst": "Fixed PDFs/Article.pdf",
+  "work": "scratch/article",
+  "title": "Full Article Title",
+  "author": "First Author, Second Author",
+  "lang": "en-US",
+  "retag": {"p1:3": "H1", "p1:4": "P", "p4:3": "Caption"},
+  "heading_levels": [["^(Abstract|Keywords|References)$", 2], ["^\\d+\\.\\d+ ", 3], [".", 2]],
+  "artifact_text": ["Downloaded from", "^\\d+$"],
+  "alt": {"p1:1": "", "p4:2": "Diagram of a four-stage cycle: …"},
+  "move_to_end": ["p1:17"],
+  "merge_next": []
+}

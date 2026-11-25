@@ -1,0 +1,13 @@
+{
+  "src": "Scanned Chapter.pdf",
+  "dst": "Fixed PDFs/Scanned Chapter.pdf",
+  "work": "scratch/scan",
+  "title": "Chapter Title",
+  "author": "Author Name",
+  "lang": "en-US",
+  "ocr": {"pages": [2, 3, 4, 5, 6], "lang": "eng"},
+  "artifact_text": ["^\\d+$", "Running Head Text"],
+  "geo_order_pages": [3, 4],
+  "ocr_fix": [["Tabie 1", "Table 1"]],
+  "alt": {"p3:11": "Illustration of …"}
+}
